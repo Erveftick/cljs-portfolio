@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cljs-portfolio.iml" filepath="$PROJECT_DIR$/cljs-portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cljsportfolio.iml" filepath="$PROJECT_DIR$/cljsportfolio.iml" />
+    </modules>
+  </component>
+</project>

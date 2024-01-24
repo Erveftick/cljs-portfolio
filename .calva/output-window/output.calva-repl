@@ -1,0 +1,4547 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/ekvashyn/Code/ed/cljs-portfolio ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Interrupting Jack-in process.
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/ekvashyn/Code/ed/cljs-portfolio ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:8777 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app (load it in the browser, or whatever is appropriate) so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Syntax error compiling at (src/cljs_portfolio/views.cljs:45:1).
+; Unable to resolve symbol: defn in this context
+clj꞉cljs-portfolio.views꞉> 
+; Error while connecting cljs REPL: class clojure.lang.Compiler$CompilerException
+; Jack-in done.
+clj꞉cljs-portfolio.views꞉> 
+; Syntax error compiling at (src/cljs_portfolio/views.cljs:45:1).
+; Unable to resolve symbol: defn in this context
+clj꞉cljs-portfolio.views꞉> 
+; Syntax error compiling at (src/cljs_portfolio/views.cljs:43:3).
+; Unable to resolve symbol: let in this context
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.28s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.10s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.28s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.11s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.09s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.10s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.10s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.35s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:59:1
+; --------------------------------------------------------------------------------
+;   56 |     ]
+;   57 |    ])
+;   58 | 
+;   59 | (def portfolio-labels []
+; -------^------------------------------------------------------------------------
+; null
+; Too many arguments to def at line 59 cljs_portfolio/views.cljs
+; --------------------------------------------------------------------------------
+;   60 |   (index-map ["Portfolio" "from" "Kyiv, Ukraine"]))
+;   61 | 
+;   62 | (defn app []
+;   63 |   (let []
+; --------------------------------------------------------------------------------
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:59:1
+; --------------------------------------------------------------------------------
+;   56 |     ]
+;   57 |    ])
+;   58 | 
+;   59 | (def portfolio-labels []
+; -------^------------------------------------------------------------------------
+; null
+; Too many arguments to def at line 59 cljs_portfolio/views.cljs
+; --------------------------------------------------------------------------------
+;   60 |   (map-indexed (fn [idx itm] [idx itm]) ["Portfolio" "from" "Kyiv, Ukraine"]))
+;   61 | 
+;   62 | (defn app []
+;   63 |   (let []
+; --------------------------------------------------------------------------------
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 1 compiled, 23 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:80:1
+; --------------------------------------------------------------------------------
+;   77 |        ]
+;   78 |       ]]))
+;   79 | 
+;   80 | <div class= "content" >
+; -------^------------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/<div
+; --------------------------------------------------------------------------------
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:80:6
+; --------------------------------------------------------------------------------
+;   77 |        ]
+;   78 |       ]]))
+;   79 | 
+;   80 | <div class= "content" >
+; ------------^-------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/class=
+; --------------------------------------------------------------------------------
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #4 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:81:1
+; --------------------------------------------------------------------------------
+;   78 |       ]]))
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+; -------^------------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/<div
+; --------------------------------------------------------------------------------
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #5 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:81:6
+; --------------------------------------------------------------------------------
+;   78 |       ]]))
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+; ------------^-------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/class=
+; --------------------------------------------------------------------------------
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #6 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:81:26
+; --------------------------------------------------------------------------------
+;   78 |       ]]))
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+; --------------------------------^-----------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/style=
+; --------------------------------------------------------------------------------
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #7 - :undeclared-ns ---------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:81:71
+; --------------------------------------------------------------------------------
+;   78 |       ]]))
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+; -----------------------------------------------------------------------------^--
+;  No such namespace: ><, could not locate _GT__LT_.cljs, _GT__LT_.cljc, or JavaScript source providing "><" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+; --------------------------------------------------------------------------------
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #8 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:81:71
+; --------------------------------------------------------------------------------
+;   78 |       ]]))
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+; -----------------------------------------------------------------------------^--
+;  Use of undeclared Var ></div>
+; --------------------------------------------------------------------------------
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #9 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:82:1
+; --------------------------------------------------------------------------------
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+; -------^------------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/<h2
+; --------------------------------------------------------------------------------
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #10 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:82:5
+; --------------------------------------------------------------------------------
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+; -----------^--------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/class=
+; --------------------------------------------------------------------------------
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #11 - :undeclared-ns --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:82:43
+; --------------------------------------------------------------------------------
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+; -------------------------------------------------^------------------------------
+;  No such namespace: >Portfolio<, could not locate _GT_Portfolio_LT_.cljs, _GT_Portfolio_LT_.cljc, or JavaScript source providing ">Portfolio<" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+; --------------------------------------------------------------------------------
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #12 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:82:43
+; --------------------------------------------------------------------------------
+;   79 | 
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+; -------------------------------------------------^------------------------------
+;  Use of undeclared Var >Portfolio</h2>
+; --------------------------------------------------------------------------------
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #13 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:83:1
+; --------------------------------------------------------------------------------
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+; -------^------------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/<h2
+; --------------------------------------------------------------------------------
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #14 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:83:5
+; --------------------------------------------------------------------------------
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+; -----------^--------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/class=
+; --------------------------------------------------------------------------------
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #15 - :undeclared-ns --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:83:43
+; --------------------------------------------------------------------------------
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+; -------------------------------------------------^------------------------------
+;  No such namespace: >from<, could not locate _GT_from_LT_.cljs, _GT_from_LT_.cljc, or JavaScript source providing ">from<" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+; --------------------------------------------------------------------------------
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #16 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:83:43
+; --------------------------------------------------------------------------------
+;   80 | <div class= "content" >
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+; -------------------------------------------------^------------------------------
+;  Use of undeclared Var >from</h2>
+; --------------------------------------------------------------------------------
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #17 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:84:1
+; --------------------------------------------------------------------------------
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+; -------^------------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/<h2
+; --------------------------------------------------------------------------------
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #18 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:84:5
+; --------------------------------------------------------------------------------
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+; -----------^--------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/class=
+; --------------------------------------------------------------------------------
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #19 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:84:43
+; --------------------------------------------------------------------------------
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+; -------------------------------------------------^------------------------------
+;  Use of undeclared Var cljs-portfolio.views/>Kyiv
+; --------------------------------------------------------------------------------
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #20 - :undeclared-ns --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:84:49
+; --------------------------------------------------------------------------------
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+; -------------------------------------------------------^------------------------
+;  No such namespace: <br>Ukraine<, could not locate _LT_br_GT_Ukraine_LT_.cljs, _LT_br_GT_Ukraine_LT_.cljc, or JavaScript source providing "<br>Ukraine<" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+; --------------------------------------------------------------------------------
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #21 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:84:49
+; --------------------------------------------------------------------------------
+;   81 | <div class= "background" style= "background-image: url(img/1bnn.jpg)" ></div>
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+; -------------------------------------------------------^------------------------
+;  Use of undeclared Var <br>Ukraine</h2>
+; --------------------------------------------------------------------------------
+;   85 | </div>
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #22 - :undeclared-ns --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:85:1
+; --------------------------------------------------------------------------------
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+; -------^------------------------------------------------------------------------
+;  No such namespace: <, could not locate _LT_.cljs, _LT_.cljc, or JavaScript source providing "<" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+; --------------------------------------------------------------------------------
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #23 - :undeclared-var -------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:85:1
+; --------------------------------------------------------------------------------
+;   82 | <h2 class= "content__title1 wow fadeInUp" >Portfolio</h2>
+;   83 | <h2 class= "content__title2 wow fadeInUp" >from</h2>
+;   84 | <h2 class= "content__title3 wow fadeInUp" >Kyiv,<br>Ukraine</h2>
+;   85 | </div>
+; -------^------------------------------------------------------------------------
+;  Use of undeclared Var </div>
+; --------------------------------------------------------------------------------
+;   86 | 
+;   87 | (defn main-page [])
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.46s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.40s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.11s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.22s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.08s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.10s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.29s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.09s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (247 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:51:32
+; --------------------------------------------------------------------------------
+;   48 |                   		:justify-content :center;
+;   49 |                   		:align-items :center
+;   50 |                   		:margin-top ""0 auto;
+;   51 |                   		min-height: 100vh;
+; --------------------------------------^-----------------------------------------
+; cljs_portfolio/views.cljs [line 51, col 32] Invalid symbol: min-height:.
+; 
+; --------------------------------------------------------------------------------
+;   52 |                   		text-align: left;}])
+;   53 |    (gs/at-media {:max-width :600px}
+;   54 |                 [:.header
+;   55 |                  {:padding "16px"
+; --------------------------------------------------------------------------------
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 1 compiled, 1 warnings, 0.31s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.21s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.30s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.09s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.10s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.68s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.43s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.81s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.32s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.24s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.70s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.36s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.51s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.11s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.69s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.57s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.35s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.90s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.43s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.11s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.44s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.50s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.28s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.39s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.54s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.43s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.44s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.33s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 2 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:107:5
+; --------------------------------------------------------------------------------
+;  104 |    [:div
+;  105 |     [header-content]
+;  106 |     [header-menu]]
+;  107 |    [menu]])
+; -----------^--------------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/menu
+; --------------------------------------------------------------------------------
+;  108 | 
+;  109 | (defn menu []
+;  110 |   [:nav.menu
+;  111 |    [:div.menu__item.menu__item--1 {:data-direction "bt"}
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.24s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 1 warnings, 0.39s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 2 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views.cljs:65:9
+; --------------------------------------------------------------------------------
+;   62 | 
+;   63 | (defn app []
+;   64 |       [:main
+;   65 |        [header]
+; ---------------^----------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views/header
+; --------------------------------------------------------------------------------
+;   66 |        [:canvas.wow.fadeIn]
+;   67 |        [:style (css style-rules)]
+;   68 |        [:div.content
+;   69 |         [:div.background]
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+; [:app] Build failure:
+; The required namespace "cljs-portfolio.views" is not available, it was required by "cljs_portfolio/core.cljs".
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (248 files, 2 compiled, 2 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views/views.cljs:65:9
+; --------------------------------------------------------------------------------
+;   62 | 
+;   63 | (defn app []
+;   64 |       [:main
+;   65 |        [header]
+; ---------------^----------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views.views/header
+; --------------------------------------------------------------------------------
+;   66 |        [:canvas.wow.fadeIn]
+;   67 |        [:style (css style-rules)]
+;   68 |        [:div.content
+;   69 |         [:div.background]
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 3 compiled, 1 warnings, 0.24s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 3 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.27s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views/views.cljs:105:32
+; --------------------------------------------------------------------------------
+;  102 |        [:canvas.wow.fadeIn]
+;  103 |        [:style (css style-rules)]
+;  104 |        [:div.content
+;  105 |         [:div.background {:src}]
+; --------------------------------------^-----------------------------------------
+; cljs_portfolio/views/views.cljs [line 105, col 32] The map literal starting with :src on line 105 column 26 contains 1 form(s). Map literals must contain an even number of forms.
+; 
+; --------------------------------------------------------------------------------
+;  106 |         (for [[idx title] portfolio-labels]
+;  107 |              [:label.wow.fadeInUp.content_label
+;  108 |               (cond-> {:key idx}
+;  109 |                       (> idx 2) (assoc :class "content_label_left"))
+; -----------------------------------------------------------------
+; ---------------
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 1 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.38s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.46s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 3 compiled, 1 warnings, 0.22s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.33s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.09s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.33s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.34s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.42s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views/views.cljs:71:29
+; --------------------------------------------------------------------------------
+;   68 |      :z-index        :9
+;   69 |      :position       :inherit}
+;   70 |     [:&_left
+;   71 |      {:margin-left :-1em}]]])
+; -----------------------------------^--------------------------------------------
+; cljs_portfolio/views/views.cljs [line 71, col 29] Unmatched delimiter ].
+; 
+; --------------------------------------------------------------------------------
+;   72 | 
+;   73 | 
+;   74 | (def portfolio-labels
+;   75 |   (map-indexed (fn [idx itm] [(inc idx) itm]) ["Portfolio" "from" "Kyiv," "Ukraine"]))
+; --------------------------------------------------------------------------------
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 1 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.21s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views/views.cljs:35:29
+; --------------------------------------------------------------------------------
+;   32 |      :align-items     :center
+;   33 |      :margin-top      "0 auto"
+;   34 |      :min-height      :100vh
+;   35 |      :text-align      :left}]
+; -----------------------------------^--------------------------------------------
+; Duplicate key: :text-align
+; 
+; --------------------------------------------------------------------------------
+;   36 | 
+;   37 |    [:.background__copy
+;   38 |     {:position            :fixed ;
+;   39 |      :width               :90% ;
+; --------------------------------------------------------------------------------
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 1 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.10s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.28s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.13s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.31s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.24s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.29s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.42s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.29s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.30s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.35s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.37s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.37s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views/views.cljs:95:33
+; --------------------------------------------------------------------------------
+;   92 |       :align-items     :center
+;   93 |       :margin-top      "0 auto"
+;   94 |       :min-height      :100vh
+;   95 |       :text-align      :left}])])
+; ---------------------------------------^----------------------------------------
+; cljs_portfolio/views/views.cljs [line 95, col 33] Unmatched delimiter ].
+; 
+; --------------------------------------------------------------------------------
+;   96 | 
+;   97 | 
+;   98 | (def portfolio-labels
+;   99 |   (map-indexed (fn [idx itm] [(inc idx) itm]) ["Portfolio" "from" "Waterloo," "Canada"]))
+; --------------------------------------------------------------------------------
+; 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 1 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.24s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.30s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.21s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.50s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.28s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.29s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.22s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.22s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.12s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.22s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.08s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.28s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.21s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.35s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.11s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.34s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.30s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.37s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 3 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.24s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.18s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.32s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.25s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.17s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.22s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.21s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.38s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.20s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.33s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.23s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.26s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.50s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.27s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.44s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.16s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.29s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.19s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.21s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.40s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.41s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.14s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.31s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.22s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 1 warnings, 0.15s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (249 files, 2 compiled, 2 warnings, 0.80s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: /Users/ekvashyn/Code/ed/cljs-portfolio/src/cljs_portfolio/views/views.cljs:113:9
+; --------------------------------------------------------------------------------
+;  110 | 
+;  111 | (defn app []
+;  112 |       [:main
+;  113 |        [menu]
+; ---------------^----------------------------------------------------------------
+;  Use of undeclared Var cljs-portfolio.views.views/menu
+; --------------------------------------------------------------------------------
+;  114 |        [header]
+;  115 |        [:canvas.wow.fadeIn]
+;  116 |        [:style (css style-rules)]
+;  117 |        [:div.content
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (250 files, 3 compiled, 1 warnings, 0.59s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (250 files, 2 compiled, 1 warnings, 0.45s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (250 files, 2 compiled, 1 warnings, 0.29s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Compiling ...
+clj꞉cljs-portfolio.views꞉> 
+; [:app] Build completed. (250 files, 2 compiled, 1 warnings, 0.40s)
+; 
+; ------ WARNING #1 - :redef -----------------------------------------------------
+;  Resource: garden/color.cljc:390:1
+;  abs already refers to: cljs.core/abs being replaced by: garden.color/abs
+; --------------------------------------------------------------------------------
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
+clj꞉cljs-portfolio.views꞉> 
