@@ -11,3 +11,9 @@ pom.xml.asc
 /.prepl-port
 .hgignore
 .hg/
+.clj-kondo/
+.shadow-cljs/
+.calva/
+.lsp/
+.idea/
+.DS_Store

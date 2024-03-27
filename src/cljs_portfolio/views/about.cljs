@@ -1,9 +1,11 @@
 (ns cljs-portfolio.views.about
   (:require
-   [garden.core :refer [css]]
-   [garden.stylesheet :as gs]))
+    [garden.core :refer [css]]
+    [garden.stylesheet :as gs]))
 
-(defn social-links []
+
+(defn social-links
+  []
   [:div
    {:style {:display :flex
             :justify-content :center
@@ -16,6 +18,7 @@
         :target "_blank"} [:i.fab.fa-github]]
    [:a {:href "mailto:edwardkvashin@gmail.com"
         :target "_blank"} [:i.fas.fa-envelope]]])
+
 
 (defn about-me
   []
@@ -32,6 +35,7 @@ experiences that combine creativity and functionality. With a passion for design
 development, I make and contribute to projects, ensuring a seamless journey that
 leaves a lasting impact in the digital landscape"]
     [social-links]]])
+
 
 (def about-styles
   [:.section
@@ -54,8 +58,11 @@ leaves a lasting impact in the digital landscape"]
     {:font-size :1.3em}]
    [:.position-subtitle
     {:margin "0.7em 0"}]
+   [:.position-location
+    {:width :120px
+     :text-align :right}]
    [:.d-flex
-    {:display :flex}]
+    {:display :flex!important}]
    [:.content-space-between
     {:justify-content :space-between}]
    [:.link
@@ -79,13 +86,30 @@ leaves a lasting impact in the digital landscape"]
     {:transition :0.3s
      :color :black!important
      :background-color "#fbd54a !important"}]
+   [:.skill-icon
+    {:color "#fbd54a"
+     :padding :3px
+     :margin-right :5px}]
+   [:.skill-heading
+    {:font-size :24px
+     :align-items :center
+     :font-weight :bold}]
+   [:.skills-block
+    {:width :50%}]
+   [:.skill-tag-block
+    {:gap :10px
+     :flex-wrap :wrap}]
    (gs/at-media {:max-width :578px}
                 [:.d-sd-block
-                 {:display    :block}])
+                 {:display    :block!important}]
+                [:.skills-block
+                 {:width :100%}])
    (gs/at-media {:max-width :786px}
                 [:.project-img-block
                  {:width :100%
                   :height :150%}]
+                [:.position-location
+                 {:text-align :left}]
                 [:.portfolio-img
                  {:height :150px}]
                 [:.project-img
@@ -93,11 +117,11 @@ leaves a lasting impact in the digital landscape"]
                 [:.project-img-label
                  {:width :100%}]
                 [:.d-md-block
-                 {:display    :block}]
+                 {:display    :block!important}]
                 [:.d-md-reverse
                  {:dislay :flex
-                  :flex-direction :column-reverse}
-                 ])])
+                  :flex-direction :column-reverse}])])
+
 
 (def blaster-timeline
   [:div
@@ -111,7 +135,7 @@ leaves a lasting impact in the digital landscape"]
        [:li "Contributed a major part to the development of a complex web-based accounting and management system for
 an online fashion manufacturer"]
        [:li "Developed platform using Clojure (Script), JavaScript, Datalog, React (Reagent), Re-frame, Polylith, Ring, HTML,
-CSS, and AWS services, while also conducting data analysis"]
+CSS, babashka and AWS services, while also conducting data analysis"]
        [:li "Implemented functionality for orders, returns, user management, price lists, analytics, and sales reports"]
        [:li "Conducted code reviews and actively engaged in troubleshooting sessions, contributing to the team's commitment to high-quality, maintainable code"]]]]
     [:li.timeline-item.wow.slideInRight
@@ -134,6 +158,7 @@ booking functionality, user-friendly interfaces, and optimal performance"]
 efficient solutions for our booking system, achieving a rapid time-to-market"]
        [:li "Actively participated in team meetings, providing technical insights, and contributing to strategic decisions to meet project timelines"]]]]]])
 
+
 (def mxf-timeline
   [:div
    [:p "In my role as a research assistant during an exchange program for students from Ukraine, I ventured into an entirely new field of theorem proving and software verification. I joined a seasoned group of researchers who had developed the verification tool SPACER, an integral component of the z3 python library. This immersive experience not only broadened my horizons but also allowed me to contribute to a cutting-edge project in the field"]
@@ -152,15 +177,8 @@ efficient solutions for our booking system, achieving a rapid time-to-market"]
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "Tool enhancement"]
-      [:p "Buoyed by this success, I persisted in my quest to enhance tool performance. Two months later, I successfully implemented two additional ideas into the codebase, resulting in a substantial 2.15-fold increase in the initial performance of the researchers' tool. This experience underscored my adaptability and problem-solving skills in navigating uncharted territories within the realm of research and software development"]]]
-    ]])
+      [:p "Buoyed by this success, I persisted in my quest to enhance tool performance. Two months later, I successfully implemented two additional ideas into the codebase, resulting in a substantial 2.15-fold increase in the initial performance of the researchers' tool. This experience underscored my adaptability and problem-solving skills in navigating uncharted territories within the realm of research and software development"]]]]])
 
-[:ul
-            [:li "Developed two fundamental ideas to improve the team's tool for bug-free code verification"]
-            [:li "Built a Python tool named “magicXform” with the Z3 theorem prover to address challenges and enhance
-results on top of the team's tool"]
-            [:li "Improved the efficiency of a research team's tool for finding invariants, resulting in a 2.15-fold increase in
-effectivenes"]]
 
 (defn work-card-header
   [{:keys [title company company-wp years contract location]}]
@@ -181,7 +199,8 @@ effectivenes"]]
       [:h5.position-subtitle contract]
       [:h5.position-subtitle "•"]]
      [:h5.position-subtitle years]]]
-   [:h5.position-subtitle location]])
+   [:h5.position-subtitle.position-location location]])
+
 
 (defn work-card
   [{:keys [about] :as work-data}]
@@ -190,6 +209,7 @@ effectivenes"]]
     :style {:padding "2em 0"}}
    [work-card-header work-data]
    about])
+
 
 (def work-exp-data
   [{:title "Software Developer / Research Assistant"
@@ -219,13 +239,17 @@ adaptable to school and university settings. Leveraged JavaScript, React, NextJS
 CSS"]
             [:li "Strengthen my skills in front-end development and user experience design"]]}])
 
-(defn work-exp []
+
+(defn work-exp
+  []
   [:div#work-experience.section
    [:h3.title.wow.fadeIn "Work experience"]
    (for [w work-exp-data]
      [work-card w])])
 
-(defn project-tag [text style]
+
+(defn project-tag
+  [text style]
   [:div
    {:style (merge {:color :black
                    :padding "8px 10px"
@@ -236,16 +260,60 @@ CSS"]
                   style)}
    text])
 
-(defn skill-tag [text]
-  [:div
-   {:style {:padding ".2rem .8rem"
-            :color :#d46b08
-            :background :#fff7e6
-            :border-color :##ffd591
-            :border-radius :999px}}
+
+(defn skill-tag
+  [text & {:keys [wht?]}]
+  [:div.wow.fadeIn
+   {:style (cond-> {:padding ".2rem .8rem"
+                    :color :#d46b08
+                    :background :#fff7e6
+                    :border-color :##ffd591
+                    :border-radius :999px}
+             wht? (assoc :background :white
+                         :color :black
+                         :border "1px solid white"))}
    text])
 
-(defn project-btn [label link & {:keys [filled?]}]
+
+(def skills-for-work
+  ["Clojure(Script)❤️" "Re-frame" "Reagent" "Datomic" "Datascript" "Babashka"
+   "Malli" "Spec" "Polylith" "Shadow CLJS" "Deps" "Emacs" "Git" "Github" "UI/UX" "HTMX"
+   "Javascript" "HTML" "CSS" "React" "Jira" "AWS" "Docker"])
+
+
+(def skills-for-fun
+  ["SQL" "Postgres" "MongoDB" "NextJS" "Tailwind" "Redux" "NodeJS" "Express"
+   "Python" "Datalog" "Vercel" "Java" "C++"])
+
+
+(defn skills
+  []
+  [:div#skills.section
+   [:div.d-flex.d-sd-block
+    {:style {:gap :2em
+             :padding-bottom :18vh
+             :padding-top :5vh}}
+    [:div.skills-block
+     [:h4.d-flex.skill-heading.wow.fadeIn
+      [:i.fas.fa-terminal.skill-icon
+       {:style {:font-size :17px
+                :background :#fbd54a
+                :color :#252525}}]
+      "Use at work"]
+     [:div.d-flex.skill-tag-block
+      (for [s skills-for-work]
+        [skill-tag s :wht? true])]]
+    [:div.skills-block
+     [:h4.d-flex.skill-heading.wow.fadeIn
+      [:i.fas.fa-smile-beam.skill-icon]
+      "Use for fun"]
+     [:div.d-flex.skill-tag-block
+      (for [s skills-for-fun]
+        [skill-tag s :wht? true])]]]])
+
+
+(defn project-btn
+  [label link & {:keys [filled?]}]
   [:a {:href link
        :target "_blank"}
    [:div.project-btn
@@ -258,7 +326,9 @@ CSS"]
                               :color :black))}
     label]])
 
-(defn lem-project-block []
+
+(defn lem-project-block
+  []
   [:div.d-flex.d-md-block.wow.slideInRight
    {:style {:width :100%}}
    [:div.project-img-block.d-flex.content-center
@@ -290,7 +360,9 @@ CSS"]
      [project-btn "View Demo" "https://platform-lem.vercel.app/en" {:filled? true}]
      [project-btn "Watch Video" "https://www.youtube.com/watch?v=YRG9T42zfYs&t=19s"]]]])
 
-(defn blaster-project-block []
+
+(defn blaster-project-block
+  []
   [:div.d-flex.d-md-reverse.wow.slideInLeft
    {:style {:width :100%
             :margin "3em 0"}}
@@ -323,7 +395,9 @@ CSS"]
                        :style {:position :relative
                                :bottom :-50%}}]]])
 
-(defn portfolio-project-block []
+
+(defn portfolio-project-block
+  []
   [:div.d-flex.d-md-block.wow.slideInRight
    {:style {:width :100%}}
    [:div.project-img-block.d-flex.content-center
@@ -347,7 +421,9 @@ CSS"]
      [skill-tag "HTML/CSS"]
      [skill-tag "GitHub"]]]])
 
-(defn projects []
+
+(defn projects
+  []
   [:<>
    [:div#projects.section
     {:style {:margin-bottom 0}}
@@ -360,6 +436,7 @@ CSS"]
     [lem-project-block]
     [blaster-project-block]
     [portfolio-project-block]]])
+
 
 (def study-exp-data
   [{:title "Bachelor's Degree"
@@ -375,11 +452,14 @@ CSS"]
     :contract "Electrical and Computer Engineering"
     :location "Waterloo, Canada"}])
 
-(defn study []
+
+(defn study
+  []
   [:div#edu.section
    [:h3.title.wow.fadeIn "Education"]
    (for [w study-exp-data]
      [work-card w])])
+
 
 (def lead-exp-data
   [{:title "Lead of Ukrainian National Team in Robotics"
@@ -404,13 +484,17 @@ problem-solving, teamwork, and innovation"]]}
 engaging and age-appropriate educational programs"]
             [:li "Provided individual and group coaching to children, with a focus on programming, problem-solving, and teamwork"]]}])
 
-(defn lead-exp []
+
+(defn lead-exp
+  []
   [:div#leadership.section
    [:h3.title.wow.fadeIn "Leadership Experience"]
    (for [w lead-exp-data]
      [work-card w])])
 
-(defn contacts []
+
+(defn contacts
+  []
   [:div#contact.section.wow.fadeIn
    {:style {:text-align :center}}
    [:h3.title.wow.fadeIn
@@ -425,11 +509,13 @@ engaging and age-appropriate educational programs"]
     [:a {:href "mailto:edwardkvashin@gmail.com"}
      [:i.fas.fa-envelope {:style {:margin-right :0.5em}}] "edwardkvashin@gmail.com"]]])
 
+
 (defn about
   []
   [:section.wow.fadeIn
    [:style (css about-styles)]
    [about-me]
+   [skills]
    [work-exp]
    [projects]
    [study]

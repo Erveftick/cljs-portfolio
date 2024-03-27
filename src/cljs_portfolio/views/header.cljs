@@ -1,19 +1,21 @@
 (ns cljs-portfolio.views.header
   (:require
-   [garden.core :refer [css]]
-   [garden.stylesheet :as gs]
-   [tick.core :as t]
-   [tick.locale-en-us]))
+    [garden.core :refer [css]]
+    [garden.stylesheet :as gs]
+    [tick.core :as t]
+    [tick.locale-en-us]))
+
 
 (def header-styles
   [:body
    [:.header
     {:height      :70px
-     :mix-blend-mode :difference
      :text-align  :left
      :width       :100%
      :margin      0
      :padding     :1.5rem
+     :background "rgba(37,37,37,0.6)"
+     :backdrop-filter "blur(12px)"
      :position    :fixed
      :z-index     :100
      :display     :flex
@@ -35,19 +37,26 @@
    (gs/at-media {:max-width :587px}
                 [:.header
                  {:display    :block
+                  :height :80px
                   :text-align :left}]
                 [:.header_logo
                  {:margin 0}])])
 
-(defn header-logo []
+
+(defn header-logo
+  []
   [:h3.header_logo.wow.fadeInUp "Edward Kvashyn"])
 
-(defn header-content []
-  (let [start-year (t/year "2020")
+
+(defn header-content
+  []
+  (let [start-year (t/year "2019")
         curr-year (t/year)]
     [:label.header_content.wow.fadeInUp (str start-year "—" curr-year " · Software Developer")]))
 
-(defn header-menu []
+
+(defn header-menu
+  []
   [:div.header_button
    [:svg.hidden {:data-wow-delay "3s"}
     [:symbol#icon-menu {:viewBox "0 0 119 25"}
@@ -57,7 +66,9 @@
      [:title "close"]
      [:path {:d "M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"}]]]])
 
-(defn header []
+
+(defn header
+  []
   [:div.header
    [:style (css header-styles)]
    [header-logo]
