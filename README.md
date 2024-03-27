@@ -1,14 +1,16 @@
 # cljs-portfolio
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to introduce myself and my 2 main skills: coding and design
 
-## Usage
+## Portfolio view
 
-FIXME
+![Portfolio Image](https://github.com/Erveftick/cljs-portfolio/blob/745809ef970c984133029f2138cec0858918556a/resources/public/img/portfolio.png)
+
+You can check my portfolio by [this link](https://erveftick.github.io/)
 
 ## License
 
-Copyright © 2023 FIXME
+Copyright © 2023
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
