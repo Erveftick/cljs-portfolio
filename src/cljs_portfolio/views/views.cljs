@@ -4,8 +4,7 @@
    [cljs-portfolio.views.menu :refer [menu]]
    [cljs-portfolio.views.about :refer [about]]
    [garden.core :refer [css]]
-   [garden.stylesheet :as gs]
-   [tick.core :as t]
+   [garden.stylesheet :as gs] 
    [tick.locale-en-us]))
 
 (def style-rules
