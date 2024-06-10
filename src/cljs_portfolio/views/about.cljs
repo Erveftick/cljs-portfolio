@@ -159,6 +159,21 @@ efficient solutions for our booking system, achieving a rapid time-to-market"]
        [:li "Actively participated in team meetings, providing technical insights, and contributing to strategic decisions to meet project timelines"]]]]]])
 
 
+(def composer-timeline
+  [:div
+   [:p "Crafting Seamless Experiences: Front-End Mastery in UI Design and Web Performance Optimization"]
+   [:ul.timeline
+    [:li.timeline-item.wow.slideInRight
+     [:div.timeline-marker]
+     [:div.timeline-content
+      [:h3.timeline-title "User Interface Development"]
+      [:p "Spearheaded the creation of new interfaces, redesigned existing components, and resolved critical bugs. Actively communicated with cross-functional teams to ensure seamless integration and functionality. Additionally, mentored university trainees, guiding them through industry best practices and project workflows"]]]
+    [:li.timeline-item.wow.slideInRight
+     [:div.timeline-marker]
+     [:div.timeline-content
+      [:h3.timeline-title "Web Performance Improvement"]
+      [:p "Achieved a significant reduction in web app memory consumption from over 4GB per tab to less than 500MB within a month. This was accomplished by identifying and addressing major issues in the production code and implementing highly optimized solutions and tracked results using Datadog. Successfully refactored numerous components to enhance overall performance and efficiency"]]]]])
+
 (def mxf-timeline
   [:div
    [:p "In my role as a research assistant during an exchange program for students from Ukraine, I ventured into an entirely new field of theorem proving and software verification. I joined a seasoned group of researchers who had developed the verification tool SPACER, an integral component of the z3 python library. This immersive experience not only broadened my horizons but also allowed me to contribute to a cutting-edge project in the field"]
@@ -212,24 +227,31 @@ efficient solutions for our booking system, achieving a rapid time-to-market"]
 
 
 (def work-exp-data
-  [{:title "Software Developer / Research Assistant"
+  [{:title "Software Developer"
+    :company "composer.trade"
+    :company-wp "https://www.composer.trade/"
+    :years "Mar 2023 - Now"
+    :contract "Full-time"
+    :location "Toronto, Canada"
+    :about composer-timeline}
+   {:title "Software Developer / Research Assistant"
     :company "University of Waterloo"
     :company-wp "https://uwaterloo.ca/"
-    :years "2023 - Now"
+    :years "May 2023 - Mar 2024"
     :contract "Full-time"
     :location "Waterloo, Canada"
     :about mxf-timeline}
    {:title "Software Developer"
     :company "Blaster Inc. / MDNT45"
     :company-wp "https://mdnt45.com/"
-    :years "2021 - 2023"
+    :years "Jul 2021 - Dec 2023"
     :contract "Full-time"
     :location "Lisbon, Portugal"
     :about blaster-timeline}
    {:title "Front-end software developer"
     :company "LEM platform"
     :company-wp "https://platform-lem.vercel.app/en"
-    :years "2019 - 2022"
+    :years "Dec 2019 - Oct 2021"
     :contract "Self-employed"
     :location "Kyiv, Ukraine"
     :about [:ul
@@ -421,6 +443,39 @@ CSS"]
      [skill-tag "HTML/CSS"]
      [skill-tag "GitHub"]]]])
 
+(defn composer-project-block
+  []
+  [:div.d-flex.d-md-reverse.wow.slideInLeft
+   {:style {:width :100%
+            :margin "3em 0"}}
+   [:div.p-2.project-img-label
+    [:h3.project-title "composer.trade"]
+    [:p.project-description "Developed comprehensive e-commerce management system featuring a robust role system, financial tools, user management, admin privileges, configurable settings, and more"]
+    [:h3.project-title "Stack"]
+    [:div.d-flex
+     {:style {:gap :10px
+              :flex-wrap :wrap
+              :width :100%}}
+     [skill-tag "Clojure"]
+     [skill-tag "ClojureScript"]
+     [skill-tag "JavaScript"]
+     [skill-tag "Reagent"]
+     [skill-tag "Re-frame"]
+     [skill-tag "Postgres"]
+     [skill-tag "Spec/Malli"]
+     [skill-tag "Ring"]
+     [skill-tag "Datadog"]
+     [skill-tag "GitHub"]]
+    [:div.d-flex
+     {:style {:margin-top :3em
+              :gap :10px}}
+     [project-btn "View Product" "https://app.composer.trade/discover" {:filled? true}]]]
+   [:div.project-img-block.d-flex.content-center
+    [project-tag "Finance" {:right 0}]
+    [:img.project-img {:src "img/composer.png"
+                       :style {:position :relative
+                               :bottom :-50%}}]]])
+
 
 (defn projects
   []
@@ -433,6 +488,7 @@ CSS"]
              :dislay :flex
              :flex-direction :column
              :gap :4em}}
+    [composer-project-block]
     [lem-project-block]
     [blaster-project-block]
     [portfolio-project-block]]])
@@ -448,7 +504,7 @@ CSS"]
    {:title "Master's degree"
     :company "University of Waterloo"
     :company-wp "https://uwaterloo.ca/"
-    :years "2023 - Now"
+    :years "2023 - 2024"
     :contract "Electrical and Computer Engineering"
     :location "Waterloo, Canada"}])
 
