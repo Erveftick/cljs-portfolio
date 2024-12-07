@@ -127,7 +127,7 @@ leaves a lasting impact in the digital landscape"]
   [:div
    [:p "In this role, I was hands-on with the team, doing a bunch of coding, making it run better, and writing tests to make sure everything works smoothly. I also took charge of keeping our codebase in check, reviewing my teammates' work and offering feedback. I made sure to stay in the loop with the latest in Clojure by keeping an eye on news and being part of various Clojure meetups and master-classes"]
    [:ul.timeline
-    [:li.timeline-item.wow.slideInRight
+    [:li.timeline-item.wow.fadeIn
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "E-commerce management system"]
@@ -138,7 +138,7 @@ an online fashion manufacturer"]
 CSS, babashka and AWS services, while also conducting data analysis"]
        [:li "Implemented functionality for orders, returns, user management, price lists, analytics, and sales reports"]
        [:li "Conducted code reviews and actively engaged in troubleshooting sessions, contributing to the team's commitment to high-quality, maintainable code"]]]]
-    [:li.timeline-item.wow.slideInRight
+    [:li.timeline-item.wow.fadeIn
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "Web extension"]
@@ -147,7 +147,7 @@ CSS, babashka and AWS services, while also conducting data analysis"]
        [:li "Leveraging Chromex, I implemented the web extension using Clojure(Script), strategically employing core.async to facilitate seamless communication between the back-end and front-end. This asynchronous approach enabled efficient and responsive operations, ensuring effective interaction and data flow within the extension"]
        [:li "Implemented robust data handling using DataScript and LocalStorage, effectively storing and managing user input as a database"]
        [:li "Blended technologies seamlessly, incorporating JavaScript, React (Reagent), and HTML/CSS to develop a dynamic and user-friendly front end"]]]]
-    [:li.timeline-item.wow.slideInRight
+    [:li.timeline-item.wow.fadeIn
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "Booking web-based system"]
@@ -158,17 +158,26 @@ booking functionality, user-friendly interfaces, and optimal performance"]
 efficient solutions for our booking system, achieving a rapid time-to-market"]
        [:li "Actively participated in team meetings, providing technical insights, and contributing to strategic decisions to meet project timelines"]]]]]])
 
+(def freshcode-timeline
+  [:div
+   [:p "Designed, developed, and deployed a fully functional healthtech application within 3 months"]
+   [:ul.timeline
+    [:li.timeline-item.wow.fadeIn
+     [:div.timeline-marker]
+     [:div.timeline-content
+      [:h3.timeline-title "Mobile and Web App Development"]
+      [:p "Integrated the Fast Healthcare Interoperability Resources (FHIR) standard to ensure seamless interoperability and secure handling of patient health data. Built a robust appointments feature, allowing users to schedule, manage, and track healthcare appointments efficiently."]]]]])
 
 (def composer-timeline
   [:div
    [:p "Crafting Seamless Experiences: Front-End Mastery in UI Design and Web Performance Optimization"]
    [:ul.timeline
-    [:li.timeline-item.wow.slideInRight
+    [:li.timeline-item.wow.fadeIn
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "User Interface Development"]
       [:p "Spearheaded the creation of new interfaces, redesigned existing components, and resolved critical bugs. Actively communicated with cross-functional teams to ensure seamless integration and functionality. Additionally, mentored university trainees, guiding them through industry best practices and project workflows"]]]
-    [:li.timeline-item.wow.slideInRight
+    [:li.timeline-item.wow.fadeIn
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "Web Performance Improvement"]
@@ -178,7 +187,7 @@ efficient solutions for our booking system, achieving a rapid time-to-market"]
   [:div
    [:p "In my role as a research assistant during an exchange program for students from Ukraine, I ventured into an entirely new field of theorem proving and software verification. I joined a seasoned group of researchers who had developed the verification tool SPACER, an integral component of the z3 python library. This immersive experience not only broadened my horizons but also allowed me to contribute to a cutting-edge project in the field"]
    [:ul.timeline
-    [:li.timeline-item.wow.slideInRight
+    [:li.timeline-item.wow.fadeIn
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "Verification add-on tool"]
@@ -188,7 +197,7 @@ efficient solutions for our booking system, achieving a rapid time-to-market"]
        [:a.link {:href "https://github.com/Erveftick/magicXform"} [:b "magicXform"]]
        ", serving as an add-on to the existing solver utilized by the team. Notably, my contribution
  led to a remarkable 63% improvement in results"]]]
-    [:li.timeline-item.wow.slideInRight
+    [:li.timeline-item.wow.fadeIn
      [:div.timeline-marker]
      [:div.timeline-content
       [:h3.timeline-title "Tool enhancement"]
@@ -227,10 +236,24 @@ efficient solutions for our booking system, achieving a rapid time-to-market"]
 
 
 (def work-exp-data
-  [{:title "Software Developer"
+  [{:title "Software Engineer"
+    :company "CircleCI"
+    :company-wp "https://www.circleci.com/"
+    :years "Jan 2024 - Current"
+    :contract "Full-time"
+    :location "Toronto, Canada"
+    :about [:<>]}
+   {:title "Software Developer"
+    :company "Freshcode"
+    :company-wp "https://www.freshcodeit.com/"
+    :years "Jul 2023 - Dec 2023"
+    :contract "Full-time"
+    :location "Toronto, Canada"
+    :about freshcode-timeline}
+   {:title "Software Developer"
     :company "composer.trade"
     :company-wp "https://www.composer.trade/"
-    :years "Mar 2023 - Now"
+    :years "Mar 2023 - Jun 2023"
     :contract "Full-time"
     :location "Toronto, Canada"
     :about composer-timeline}
@@ -351,7 +374,7 @@ CSS"]
 
 (defn lem-project-block
   []
-  [:div.d-flex.d-md-block.wow.slideInRight
+  [:div.d-flex.d-md-block.wow.fadeIn
    {:style {:width :100%}}
    [:div.project-img-block.d-flex.content-center
     [project-tag "Education" {:left 0}]
@@ -385,7 +408,7 @@ CSS"]
 
 (defn blaster-project-block
   []
-  [:div.d-flex.d-md-reverse.wow.slideInLeft
+  [:div.d-flex.d-md-reverse.wow.fadeIn
    {:style {:width :100%
             :margin "3em 0"}}
    [:div.p-2.project-img-label
@@ -420,7 +443,7 @@ CSS"]
 
 (defn portfolio-project-block
   []
-  [:div.d-flex.d-md-block.wow.slideInRight
+  [:div.d-flex.d-md-block.wow.fadeIn
    {:style {:width :100%}}
    [:div.project-img-block.d-flex.content-center
     [project-tag "Portfolio" {:left 0}]
@@ -445,7 +468,7 @@ CSS"]
 
 (defn composer-project-block
   []
-  [:div.d-flex.d-md-reverse.wow.slideInLeft
+  [:div.d-flex.d-md-reverse.wow.fadeIn
    {:style {:width :100%
             :margin "3em 0"}}
    [:div.p-2.project-img-label
